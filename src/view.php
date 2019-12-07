@@ -1,17 +1,17 @@
 <?php
 
-namespace App\Console\Commands;
+namespace Vendor\bethojunior\makeview\src;
 
 use Illuminate\Console\Command;
 
-class View extends Command
+class CreateView extends Command
 {
     /**
      * The name and signature of the console command.
      *
      * @var string
      */
-    protected $signature = 'make:view';
+    protected $signature = 'madgic:view';
 
     /**
      * The console command description.
