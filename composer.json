@@ -4,5 +4,10 @@
     "description": "Add command artisan for create complet view(css, js (modules, controllers) and view(blade) ) by Laravel",
     "require": {
         "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "bethojunior\\makeview\\": "src/"
+        }
     }
 }
