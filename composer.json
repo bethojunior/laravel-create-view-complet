@@ -1,5 +1,4 @@
 {
-    
     "name": "bethojunior/makeview",
     "description": "Add command artisan for create complet view(css, js (modules, controllers) and view(blade) ) by Laravel",
     "require": {
@@ -9,5 +8,11 @@
         "psr-4": {
             "bethojunior\\makeview\\": "src/"
         }
+    },
+    "scripts": {
+        "init" : "@php src/init.php",
+        "post-create-project-cmd": [
+            "@php src/init.php"
+        ]
     }
 }
