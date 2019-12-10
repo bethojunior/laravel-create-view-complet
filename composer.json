@@ -10,12 +10,7 @@
         }
     },
     "scripts": {
-        "init" : "@php src/init.php",
         "post-package-install": [
-            "@php src/init.php"
-        ],
-
-        "post-autoload-dump": [
             "@php src/init.php"
         ]
     }
